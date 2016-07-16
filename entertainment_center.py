@@ -34,6 +34,9 @@ my_neighbor_totoro = media.Movie("My neighbor Totoro",
     "https://www.youtube.com/watch?v=92a7Hj0ijLs")
 
 
-movies = [sword_rain, tais_toi, red_turle, hotarubi_no_morie, time_of_eve, my_neighbor_totoro]
+movies = [
+            sword_rain, tais_toi, red_turle, 
+            hotarubi_no_morie, time_of_eve, my_neighbor_totoro
+        ]
 fresh_tomatoes.open_movies_page(movies)
 
