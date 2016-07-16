@@ -1,4 +1,5 @@
 
+#call phyton code fresh_tomatoes for browser css format and opening movie trailer, media for class Movie
 import fresh_tomatoes
 import media
 
@@ -7,7 +8,6 @@ sword_rain = media.Movie("Reign of Assassins",
     "https://upload.wikimedia.org/wikipedia/en/6/64/Reign-of-Assassins.jpg",
     "https://www.youtube.com/watch?v=IczLF2rcs10")
 
-# sword_rain.show_trailer()
 tais_toi = media.Movie("Ruby and Quentin",
     "Two guys escaped from a jail",
     "https://upload.wikimedia.org/wikipedia/en/1/1f/Tais-toi_poster.jpg",
@@ -32,8 +32,8 @@ my_neighbor_totoro = media.Movie("My neighbor Totoro",
     "The adventure for 2 little girls after their family moved into an old country house.",
     "https://upload.wikimedia.org/wikipedia/en/0/02/My_Neighbor_Totoro_-_Tonari_no_Totoro_%28Movie_Poster%29.jpg",
     "https://www.youtube.com/watch?v=92a7Hj0ijLs")
-#my_neighbor_totoro.show_trailer()
+
 
 movies = [sword_rain, tais_toi, red_turle, hotarubi_no_morie, time_of_eve, my_neighbor_totoro]
 fresh_tomatoes.open_movies_page(movies)
-#hotarubi_no_morie.show_trailer()
+
